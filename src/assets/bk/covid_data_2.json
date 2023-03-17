@@ -1,0 +1,22 @@
+[
+  {
+    "Country_Region": "Singapore",
+    "Total_Confirmed_Cases": 5638676
+  },
+  {
+    "Country_Region": "Malaysia",
+    "Total_Confirmed_Cases": 31528585
+  },
+  {
+    "Country_Region": "Philippines",
+    "Total_Confirmed_Cases": 106651922
+  },
+  {
+    "Country_Region": "Indonesia",
+    "Total_Confirmed_Cases": 267663435
+  },
+  {
+    "Country_Region": "Thailand",
+    "Total_Confirmed_Cases": 69428524
+  }
+]

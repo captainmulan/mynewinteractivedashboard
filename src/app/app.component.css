@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+}
+
+.column1 {
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.column2 {
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.column3 {
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.col1-chart, .col2-chart, .col3-chart {
+  font-size: 14px;
+  height: 270px;
+  margin: 1px;
+  background-color: #ADD8E6; 
+  /* #eeeeee */
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+#chart5 {
+  height: 542px;
+  border: 1px solid black;
+}
+
+
+/* --------------------------------------------------------------------------------------- */
+.bar,
+.highlight {
+  fill: steelblue;
+}
+
+.highlight {
+  fill: orange;
+}
+
+.normal_text {
+  font-size: 11px;
+}
+
+.header_text {
+  font-size: 20px;
+}
+
+.line-label {
+  font-size: 5px;
+  font-weight: bold;
+  fill: steelblue;
+}
+
+.checkbox {
+  font-size: 11px;
+  transform: scale(0.8);
+  transform-origin: bottom left;
+  margin-top: -2px;
+}

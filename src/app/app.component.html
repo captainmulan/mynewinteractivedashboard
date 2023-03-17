@@ -1,0 +1,52 @@
+<h1 class="header_text">Dashboard: COVID-19 Data and Information of SEA region (2020-21)</h1>
+
+  <div class="container">
+  <div class="column1">
+    <div class="col1-chart" id="chart1">
+      <h2 class="normal_text">Top cases country</h2>
+    </div>
+    <div class="col1-chart" id="chart2">
+      <h2 class="normal_text">Population Chart</h2>
+      Sort by Population:<input type="checkbox" id="sort-checkbox-pie" class="checkbox">
+    </div>
+  </div>
+  <div class="column2">
+    <div class="col2-chart" id="chart3">
+      <h2 class="normal_text">Cases in SEA Countries</h2>
+      
+      Sort by Country:<input type="checkbox" id="sort-checkbox" class="checkbox">
+
+      <label for="case-dropdown-bar">Filter by Case:</label>
+      <select id="case-dropdown-bar" class="normal_text">
+        <option value="Total_Confirmed_Cases">Confirmed</option>
+        <option value="Total_Fatalities">Fatalities</option>
+        <option value="Total_Recovered_Cases">Recovered</option>
+      </select>
+      <label for="country-dropdown-bar">Filter by Country:</label>
+      <select id="country-dropdown-bar" class="normal_text">
+        <option value="All">All</option>
+        <option value="Indonesia">Indonesia</option>
+        <option value="Singapore">Singapore</option>
+        <option value="Thailand">Thailand</option>
+        <option value="Philippines">Philippines</option>
+        <option value="Vietnam">Vietnam</option>
+        <option value="Cambodia">Cambodia</option>
+        <option value="Brunei">Brunei</option>
+      </select>
+    </div>
+    <div class="col2-chart" id="chart4">
+      <h2 class="normal_text">Cases in Indonesia Country</h2>
+
+      <label for="case-dropdown-line">Filter by Case:</label>
+      <select id="case-dropdown-line" class="normal_text">
+        <option value="Total_Confirmed_Cases">Confirmed</option>
+        <option value="Total_Fatalities">Fatalities</option>
+        <option value="Total_Recovered_Cases">Recovered</option>
+      </select>
+
+    </div>
+  </div>
+  <div class="column3">
+    <div class="col3-chart" id="chart5"></div>
+  </div>
+</div>
