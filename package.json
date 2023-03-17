@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port $PORT --disable-host-check",
     "build": "ng build",
-    "build-prod":"ng build --prod",
+    "build-prod": "ng build --prod",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -23,7 +23,7 @@
     "d3": "^7.8.2",
     "d3-dsv": "^3.0.1",
     "d3-fetch": "^3.0.1",
-    "d3-svg-legend": "^2.25.6",
+    "d3-svg-legend": "^1.13.0",
     "install": "^0.13.0",
     "npm": "^9.6.0",
     "rxjs": "~7.8.0",
