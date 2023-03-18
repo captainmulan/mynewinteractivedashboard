@@ -5,8 +5,8 @@
     "postinstall": "npm install -g @angular/cli",
     "ng": "ng",
     "start": "ng serve --host 0.0.0.0 --port $PORT",
-    "build": "ng build --prod",
-    "build-prod": "ng build --prod",
+    "build": "ng build --configuration=production",
+    "build-prod": "ng build --configuration=production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
