@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as d3 from 'd3';
 import { PieArcDatum } from 'd3-shape';
+//declare var d3: any;
 
 interface data_Covid {
   Date: string;
@@ -32,6 +33,8 @@ interface data_Other {
 })
 
 export class AppComponent implements OnInit {
+
+  
   private data_Covid: data_Covid[] = [];
 
   private data_Other: data_Other[] = [
